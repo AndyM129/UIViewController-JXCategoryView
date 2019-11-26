@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'UIViewController-JXCategoryView_Example' do
+  pod 'UIViewController-JXCategoryView', :path => '../'
+
+  target 'UIViewController-JXCategoryView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
